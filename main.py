@@ -53,7 +53,7 @@ class BoringModel(LightningModule):
             "lr": 0.001,
             "eps": 1e-08,
             "weight_decay": 0,
-            "betas": [ 0.9, 0.999 ]
+            "betas": [ 0.9, 0.999 ] # without this param everything works correctly
         }
         
         # this doesnt work :(
